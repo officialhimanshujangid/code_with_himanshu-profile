@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+html {
+    background: url("https://images.pexels.com/photos/3076002/pexels-photo-3076002.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+.nav {
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;
+    height: 12vh;
+    width: 97%;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    padding: 20px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.nav form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 500px;
+}
+
+.nav h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 60px;
+}
+
+.nav form div {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav form div label {
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+}
+
+.nav form div .text {
+    width: 200px;
+    height: 18px;
+    border-radius: 50px;
+
+}
+
+.nav form button {
+    padding: 5px;
+    width: 80px;
+    margin: 10px;
+    font-family: 'Bree Serif', serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    background-color: brown;
+}
+
+marquee {
+    position: absolute;
+    right: 0px;
+    height: 35px;
+    font-size: 20px;
+    top: 0px;
+    border-bottom: 10px solid brown;
+    background-color: antiquewhite;
+
+}
+
+marquee span {
+    margin-left: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    height: 60vh;
+
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(248, 231, 208);
+    box-shadow: 5px 5px 10px rgb(32, 32, 32);
+}
+
+.container img {
+    position: absolute;
+    border-radius: 10px 10px 5px 5px;
+    width: 400px;
+    height: 10em;
+    top: 0;
+    box-shadow: 5px 10px 30px rgb(0, 0, 0);
+}
+
+.container h2 {
+    position: absolute;
+    font-family: 'Karla', sans-serif;
+    font-weight: 900;
+    top: 6.5em;
+}
+
+.container p {
+    position: absolute;
+    /* font-weight: 200; */
+    top: 12em;
+    text-align: justify;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}

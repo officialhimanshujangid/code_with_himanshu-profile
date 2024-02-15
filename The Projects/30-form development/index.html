@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form autocomplete="off">
+            <div class="section">
+                <label for="name">Full Name</label>
+                <input placeholder="Your name" id="name" type="text"">
+            </div>
+            <div class=" section">
+                <label for="email">Email</label>
+                <input placeholder="examplemail@gmail.com" id="email" type="email">
+            </div>
+            <div class="section">
+                <label for="age">Your Age</label>
+                <input id="age" type="number">
+            </div>
+            <div class="section">
+                <label for="dob">Date of Birth</label>
+                <input id="dob" type="date">
+            </div>
+            <div class="section">
+                <label for="color">Select your favourite color</label>
+                <input id="color" type="color">
+            </div>
+            <div class="section select">
+                <label for="job">which option can best describe you</label>
+                <select name="job" id="job" style="width: 500px; ">
+                    <option value="">Select</option>
+                    <option value="">Engineer</option>
+                    <option value="">Traveller</option>
+                    <option value="">Blogist</option>
+                    <option value="">Sexist</option>
+                    <option value="">Harami</option>
+                    <option value="">kutta</option>
+                    <option value="">Billi</option>
+                    <option value="">AAye</option>
+                    <option value="">baigan</option>
+                </select>
+            </div>
+            <div class="section">
+                <label>can you join immediatly</label>
+                <div class="check">
+                    <input name="hi" id="yes" type="radio">
+                    <label for="yes">yes</label>
+                    <input name="hi" type="radio" id="no">
+                    <label for="no">no</label>
+                    <input name="hi" type="radio" id="maybe">
+                    <label for="maybe">Maybe</label>
+                </div>
+            </div>
+            <div class="section">
+                <label>Which languages you know</label>
+                <div class="check">
+                    <input id="check1" type="checkbox">
+                    <label for="check1">C</label><br>
+                    <input id="check2" type="checkbox">
+                    <label for="check2">C++</label><br>
+                    <input id="check3" type="checkbox">
+                    <label for="check3">JAVASCRIPT</label><br>
+                    <input id="check4" type="checkbox">
+                    <label for="check4">React.JS</label><br>
+                    <input id="check5" type="checkbox">
+                    <label for="check5">NEXT.JS</label>
+                </div>
+            </div>
+            <div class="section">
+                <label for="file">submit Your Resume</label>
+                <input style="padding-top: 10px; font-family: 'Kanit', sans-serif;" id="file" type="file">
+            </div>
+            <div class="section ">
+                <label for="comment">Your suggestion</label>
+                <input style="height: 100px; border-radius: 20px;" type="text">
+            </div>
+            <input type="submit" value="Submit form">
+
+
+        </form>
+    </div>
+</body>
+
+</html>

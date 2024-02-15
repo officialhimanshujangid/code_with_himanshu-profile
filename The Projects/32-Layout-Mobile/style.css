@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    color: aliceblue;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin-left: 3rem;
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(89, 91, 94);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    transform: rotate(-60deg);
+    border: 5px solid red;
+    border-radius: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 30px;
+}
+
+nav input {
+    margin-right: 5rem;
+    width: 6rem;
+    height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    padding: 8px;
+    background: linear-gradient(to left, rgb(136, 2, 2), rgb(58, 2, 2));
+}
+
+main {
+    display: flex;
+    /* margin-top: 1rem; */
+    margin-left: 2rem;
+
+}
+
+
+main>div {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>div img {
+    height: 78vh;
+    width: 350px;
+    margin-bottom: 2rem;
+    /* box-shadow: -2px 2px 5px wheat; */
+    border-radius: 20px;
+    transform: rotate(-20deg);
+
+}
+
+main aside {
+    width: 60rem;
+}
+
+.red {
+    letter-spacing: 2px;
+    color: rgb(175, 3, 3);
+}
+
+.head {
+    font-size: 60px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.lorem {
+    letter-spacing: 1.5px;
+}
+
+.lbtn {
+    margin-top: 2rem;
+    width: 8em;
+    height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    padding: 8px;
+    background: linear-gradient(to left, rgb(136, 2, 2), rgb(58, 2, 2));
+}
+
+.smicon {
+    margin-left: -0.9rem;
+
+}
+
+.smicon img {
+    border: 5px solid rgb(192, 4, 4);
+    border-radius: 30px;
+}
+
+.hk {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    color: yellowgreen;
+}
+
+.use {
+    margin-left: 3rem;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("https://images.pexels.com/photos/3038740/pexels-photo-3038740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+
+}
+
+.container {
+    background: linear-gradient(to left, rgb(136, 136, 136), rgb(105, 208, 240));
+    top: 5px;
+    position: absolute;
+    width: 40vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px black;
+    padding: 10px;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.section>label {
+    color: rgb(0, 34, 63);
+}
+
+.section>input,
+select {
+    box-shadow: 5px 5px 25px rgb(92, 91, 91);
+    margin: 2px;
+    padding: 2px;
+    border-radius: 50px;
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+    color: bisque;
+    background-color: rgb(0, 56, 56);
+
+}
+
+.section:hover {
+    outline: solid;
+    outline-offset: 2px;
+    outline-width: 4px;
+    outline-color: rgb(53, 54, 0);
+}
+
+.section>input::placeholder {
+    color: rgb(134, 134, 133);
+
+}
+
+.section>input:focus {
+    outline: solid;
+    outline-offset: 2px;
+    outline-color: rgb(42, 147, 165);
+    outline-width: 4px;
+}
+
+input[type=file]::-webkit-file-upload-button {
+    margin-right: 20px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: rgb(105, 208, 240);
+}
+
+.text {
+    height: 100px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 20px;
+}
+
+input[type=submit] {
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 400px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 15px;
+    border: 5px solid rgb(42, 147, 165);
+    background-color: rgb(105, 208, 240);
+    transition: all 0.5s ease-in-out;
+    box-shadow: 5px 5px 25px rgb(92, 91, 91);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(42, 147, 165);
+}
+
+.check {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+input[type=select] {
+    width: 500px;
+    background-color: aqua;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 40px;
+    height: 40px;
+    margin-right: 300px;
+    background-image: url("pngwing.com.png");
+}
+
+input[type=color]::-webkit-color-swatch {
+    width: 20px;
+}
